@@ -1,3 +1,3 @@
-const dtf = new Intl.DateTimeFormat("ja-jp", {month: "numeric", timeZone: "Asia/Tokyo"});
+const dtf = new Intl.DateTimeFormat("ja-JP");
 const fmt = dtf.format(new Date(2019, 1 - 1, 1));
 console.log(fmt);
