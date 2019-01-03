@@ -1,4 +1,5 @@
 FROM alpine:edge
+ENV NODE_ICU_DATA /node_modules/full-icu
 ADD index.js .
 ADD package.json .
 RUN apk --update add nodejs-current npm
